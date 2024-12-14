@@ -1,4 +1,11 @@
 {
   "java.configuration.updateBuildConfiguration": "automatic",
-   "testing.openTesting": "neverOpen"
+   "testing.openTesting": "neverOpen",
+  //  "java.configuration.runtimes": [
+  //   {
+  //     "name": "Java 17",
+  //     "path": "/Users/maratib/.sdkman/candidates/java/current"
+  //   }
+  //  ]
+  
 }

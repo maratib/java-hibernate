@@ -9,6 +9,7 @@
 
 <hibernate-configuration>
 
+
   <session-factory>
 
     <!-- Database connection settings -->
@@ -17,15 +18,22 @@
     <property name="connection.username">temp</property>
     <property name="connection.password">temp</property>
 
+    <!-- Echo all executed SQL to stdout -->
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.generate_statistics">false</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="org.hibernate.">warn</property>
+
     <!-- SQL dialect -->
-    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    <!-- <property name="dialect">org.hibernate.dialect.MySQLDialect</property> -->
 
     <property name="hibernate.hbm2ddl.auto">update</property>
     <!-- Echo all executed SQL to stdout -->
-    <property name="show_sql">true</property>
+    <!-- <property name="show_sql">true</property> -->
 
     <!-- Names the annotated entity class -->
     <mapping class="com.mak.User" />
+
 
   </session-factory>
 

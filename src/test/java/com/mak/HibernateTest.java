@@ -13,6 +13,7 @@ import org.hibernate.cfg.Configuration;
 /**
  * Unit test for simple App.
  */
+
 class HibernateTest {
 
     private SessionFactory sessionFactory;
@@ -49,5 +50,10 @@ class HibernateTest {
         session.close();
 
         assertEquals(1, 1);
+    }
+
+    @Test
+    void testApp2() {
+
     }
 }
