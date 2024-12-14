@@ -23,6 +23,7 @@
 
   <dependencies>
 
+    <!-- JAXB API only -->
 
     <!-- Hibernate dependency https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
     <dependency>
@@ -30,6 +31,9 @@
       <artifactId>hibernate-core</artifactId>
       <version>5.0.2.Final</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+
 
     <!-- MariaDB dependency https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
     <dependency>

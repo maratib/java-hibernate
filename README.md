@@ -1,3 +1,3 @@
-# Hibernate Test
+# Hibernate Standalone Test
 
-## JUnit 5, Lombok, Maven, VSCode test settings
+## Hibernate 5, MariaDB,JUnit 5, Lombok, Maven, VSCode test settings

@@ -36,7 +36,7 @@ class HibernateTest {
     void testApp() {
 
         User user = new User();
-        user.setName("John Doe");
+        user.setName("John Doe 1");
         // user.setEmail("john.doe@example.com");
         // user.setPassword("123456");
 
